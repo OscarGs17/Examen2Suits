@@ -1,0 +1,95 @@
+/* Fondo moderno con colores frescos */
+body {
+    background-image: linear-gradient(to right, #475aad, #2f37ab); /* Verde degradado */
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif; /* Tipografía moderna */
+    color: #333; /* Color de texto neutro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ }
+ 
+ button {
+     background-color: #ff6f61; /* Botón de color naranja */
+     color: orange;
+     border: none;
+     border-radius: 8px; /* Bordes redondeados */
+     padding: 12px 25px;
+     font-size: 16px;
+     transition: background-color 0.3s ease, transform 0.2s ease; /* Transición suave */
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+ }
+ 
+ button:hover {
+     background-color: #f20c00; /* Naranja más oscuro al hacer hover */
+     transform: translateY(-4px); /* Efecto de elevación en hover */
+     cursor: pointer;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: #ff6f61; /* Color naranja para los enlaces */
+     transition: color 0.3s ease, text-shadow 0.3s ease;
+ }
+ 
+ a:hover {
+     color: #ff3b2f;
+     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Sombra suave */
+ }
+ 
+ .c-user {
+     font-size: 80px;
+     text-align: center;
+     color: #ff3b2f; /* Texto blanco para destacar en el fondo verde */
+     margin-bottom: 20px;
+     font-weight: 300; /* Tipografía ligera */
+ }
+ 
+ .form-control {
+     color: #333;
+     background-color: rgba(250, 255, 255, 0.213);
+     border: 1px solid #db0000;
+     border-radius: 5px;
+     padding: 10px;
+     width: 100%;
+     margin-bottom: 20px;
+     font-size: 16px;
+     transition: border-color 0.3s ease, box-shadow 0.3s ease;
+ }
+ 
+ .form-control:focus {
+     border-color: #ff6f61; /* Naranja en el borde al hacer foco */
+     box-shadow: 0 0 8px rgba(255, 111, 97, 0.3); /* Sombra naranja */
+     outline: none;
+ }
+ 
+ .form-control::placeholder {
+     color: #7e7171;
+ }
+ 
+ .input-group-text {
+     color: #333;
+     background-color: rgba(255, 255, 255, 0.599);
+     border: 1px solid #b5bbbf;
+     padding: 10px;
+     border-radius: 5px;
+     margin-right: 10px;
+ }
+ 
+ form {
+     background-color: rgba(255, 255, 255, 0.472);
+     border-radius: 12px;
+     padding: 30px;
+     max-width: 400px;
+     width: 100%;
+     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Sombra más fuerte para resaltar el formulario */
+     backdrop-filter: blur(10px); /* Desenfoque suave */
+ }
+ 
+ form:hover {
+     box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada en hover */
+ }
+ 
